@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me — Chad Reed</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="js/contact.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Catamaran|Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<header>
+			<nav>
+				<div class="mobilelogo"><a href="index.html"><img src="images/misc/cr_logo_lightblue45.png" alt="CR photo logo"></a></div>
+				<div id="menu-bar">
+						<div id="menu" onclick="onClickMenu()">
+							<div id="bar1" class="bar"></div>
+							<div id="bar2" class="bar"></div>
+							<div id="bar3" class="bar"></div>
+						</div>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="film.html">Film</a></li>
+							<li><a href="digital.html">Digital</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+				</div>
+					<div class="menu-bg" id="menu-bg"></div>
+				<div class="fullnav">
+				<ul>
+					<li class="fulllinks"><a href="film.html"> Film </a></li>
+					<li class="fulllinks"><a href="digital.html"> Digital </a></li>
+					<li><a href="index.html" class="logoh"><img src="images/misc/cr_logo_lightblue45.png" alt="CR photo logo"></a></li>
+					<li class="fulllinks"><a href="about.html"> About </a></li>
+					<li class="fulllinks"><a href="contact.html"> Contact </a></li>
+				</ul>
+				</div>
+			</nav>
+        </header>
+
+        <div class="contact-section">
+            <h1>Contact Me</h1>
+            <form class="contact-form" action="https://formspree.io/chizzad775@gmail.com" method="POST">
+                <input type="text" name="name" class="contact-form-name" placeholder="Your name">
+                <input type="email" name="email" class="contact-form-email" placeholder="Your email">
+                <textarea class="contact-form-message" name="message" placeholder="Your message"></textarea>
+                <input type="submit" class="contact-form-btn" value="Send">
+            </form>
+        </div>
+
+		<footer>
+			<div class="copyright">
+				<a href="index.html" class="logof"><img src="images/misc/cr_logo_circle_50.png" alt="CR photo logo"></a>
+				<h4>ALL CONTENT © CHAD REED 2019.<br>NO PHOTOGRAPHS, VIDEO, OR TEXT MAY BE USED WITHOUT PRIOR WRITTEN APPROVAL.</h4>
+			</div>
+		</footer>
+
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+js
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->		
+<!-- mobile nav menu -->
+		<script>
+			function onClickMenu(){
+				document.getElementById("menu").classList.toggle("change");
+				document.getElementById("nav").classList.toggle("change");
+				document.getElementById("menu-bg").classList.toggle("change-bg");
+			}
+		</script>
+		
+	</body>
+</html>

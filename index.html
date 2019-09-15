@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chad Reed Photo</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Catamaran|Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<header>
+			<nav>
+				<div class="mobilelogo"><a href="index.html"><img src="images/misc/cr_logo_lightblue45.png" alt="CR photo logo"></a></div>
+				<div id="menu-bar">
+						<div id="menu" onclick="onClickMenu()">
+							<div id="bar1" class="bar"></div>
+							<div id="bar2" class="bar"></div>
+							<div id="bar3" class="bar"></div>
+						</div>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="film.html">Film</a></li>
+							<li><a href="digital.html">Digital</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+				</div>
+					<div class="menu-bg" id="menu-bg"></div>
+				<div class="fullnav">
+				<ul>
+					<li class="fulllinks"><a href="film.html"> Film </a></li>
+					<li class="fulllinks"><a href="digital.html"> Digital </a></li>
+					<li><a href="index.html" class="logoh"><img src="images/misc/cr_logo_lightblue45.png" alt="CR photo logo"></a></li>
+					<li class="fulllinks"><a href="about.html"> About </a></li>
+					<li class="fulllinks"><a href="contact.html"> Contact </a></li>
+				</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="index-banner">
+				<div class="index-text">
+					<h1>CHAD REED</h1>
+					<h4>photography</h4>
+					<h2>Collecting day to day moments and developing lifetime memories.</h2>
+				</div>
+			</section>
+			<section class="index-links">
+				<a href="film.html">
+					<div class="index-boxlink-square">
+						<h3>Film</h3>
+					</div>
+				</a>
+				<a href="digital.html">
+					<div class="index-boxlink-rectangle">
+						<h3>Digital</h3>
+					</div>
+				</a>
+				<a href="about.html">
+					<div class="index-boxlink-square">
+						<h3>About Me</h3>
+					</div>
+				</a>
+				<a href="contact.html">
+					<div class="index-boxlink-square">
+						<h3>Contact</h3>
+					</div>
+				</a>
+			</section>
+		</main>
+
+		<footer>
+			<div class="copyright">
+				<a href="index.html" class="logof"><img src="images/misc/cr_logo_circle_50.png" alt="CR photo logo"></a>
+				<h4>ALL CONTENT © CHAD REED 2019.<br>NO PHOTOGRAPHS, VIDEO, OR TEXT MAY BE USED WITHOUT PRIOR WRITTEN APPROVAL.</h4>
+			</div>
+		</footer>
+
+		<script>
+			function onClickMenu(){
+				document.getElementById("menu").classList.toggle("change");
+				document.getElementById("nav").classList.toggle("change");
+				document.getElementById("menu-bg").classList.toggle("change-bg");
+			}
+		</script>
+		
+	</body>
+</html>
