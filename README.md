@@ -1,7 +1,7 @@
 # A Photography Portfolio V2.0.0
 
-An ongoing rough draft of a site to show off some of my photos
+An ongoing rough draft to show off some of my photos
 
 ## Disclaimer
 
-Hopefully I am able to get this version to a solid point. However, it will always be an evolving project
+Ideally I will be able to get this v2 to a solid point reasonably soon. However, this will always be an evolving project
