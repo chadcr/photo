@@ -3,87 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chad Reed Photo</title>
+    <title>CR | Photography</title>
     <link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Catamaran|Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet">
-</head>
+    <link rel="icon" href="images/cr_icon2.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 	<body>
-		<header>
-			<nav>
-				<div class="mobilelogo"><a href="index.html"><img src="images/misc/cr_logo.svg" alt="CR photo logo"></a></div>
-				<div id="menu-bar">
-						<div id="menu" onclick="onClickMenu()">
-							<div id="bar1" class="bar"></div>
-							<div id="bar2" class="bar"></div>
-							<div id="bar3" class="bar"></div>
-						</div>
-						<ul class="nav" id="nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="film.html">Film</a></li>
-							<li><a href="digital.html">Digital</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-				</div>
-					<div class="menu-bg" id="menu-bg"></div>
-				<div class="fullnav">
-				<ul>
-					<li class="fulllinks"><a href="film.html"> Film </a></li>
-					<li class="fulllinks"><a href="digital.html"> Digital </a></li>
-					<li><a href="index.html"><img class="logoh" src="images/misc/cr_logo.svg" alt="CR photo logo"></a></li>
-					<li class="fulllinks"><a href="about.html"> About </a></li>
-					<li class="fulllinks"><a href="contact.html"> Contact </a></li>
-				</ul>
-				</div>
-			</nav>
-		</header>
-		
-		<main>
-			<section class="index-banner">
-				<div class="index-text">
-					<h1>CHAD REED</h1>
-					<h4>photography</h4>
-					<h2>Collecting day to day moments and developing lifetime memories.</h2>
-				</div>
-			</section>
-			<section class="index-links">
-				<a href="film.html">
-					<div class="index-boxlink-square">
-						<h3>Film</h3>
-					</div>
-				</a>
-				<a href="digital.html">
-					<div class="index-boxlink-rectangle">
-						<h3>Digital</h3>
-					</div>
-				</a>
-				<a href="about.html">
-					<div class="index-boxlink-square">
-						<h3>About Me</h3>
-					</div>
-				</a>
-				<a href="contact.html">
-					<div class="index-boxlink-square">
-						<h3>Contact</h3>
-					</div>
-				</a>
-			</section>
-		</main>
-
-		<footer>
-			<div class="copyright">
-				<a href="index.html" class="logof"><img src="images/misc/cr_logo_circle.svg" alt="CR photo logo"></a>
-				<h4>ALL CONTENT © CHAD REED 2019.<br>NO PHOTOGRAPHS, VIDEO, OR TEXT MAY BE USED WITHOUT PRIOR WRITTEN APPROVAL.</h4>
-			</div>
-		</footer>
-
-		<script>
-			function onClickMenu(){
-				document.getElementById("menu").classList.toggle("change");
-				document.getElementById("nav").classList.toggle("change");
-				document.getElementById("menu-bg").classList.toggle("change-bg");
-			}
-		</script>
-		
+        <div id="wrapper">
+            <div id="header"> <img src="images/cr_text2.png" alt=""> </div>
+            <div id="landing_screen" class="panels"></div>
+            <div id="inner_wrapper" class="panels">
+                <div id="blurb">
+                    <h1>A Collection Of Digitized Film Photographs</h1>
+                    <p>This site, along with my photography, will always be a work in progress.</p>
+                </div>
+                <div id="photo_grid">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/1.jpg" alt="">
+                            <img src="images/2.jpg" alt="">
+                            <img src="images/3.jpg" alt="">
+                            <img src="images/4.jpg" alt="">
+                            <img src="images/5.jpg" alt="">
+                            <img src="images/6.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="images/6.jpg" alt="">
+                            <img src="images/5.jpg" alt="">
+                            <img src="images/4.jpg" alt="">
+                            <img src="images/3.jpg" alt="">
+                            <img src="images/2.jpg" alt="">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="images/2.jpg" alt="">
+                            <img src="images/3.jpg" alt="">
+                            <img src="images/5.jpg" alt="">
+                            <img src="images/1.jpg" alt=""> 
+                            <img src="images/6.jpg" alt="">
+                            <img src="images/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="about" class="panels">
+                    <div id="aboutPhoto">
+                        <!-- <h1>Photographer</h1> -->
+                    </div>
+                    <div id="aboutProg">
+                        <!-- <h1>Programmer</h1> -->
+                    </div>
+                </div>
+                <div id="contact" class="panels">
+                    <div id="contact_link">
+                        <!-- <h1>hi@chadreedphoto.com</h1> -->
+                        <h1><a href="mailto:hi@chadreedphoto.com">hi@chadreedphoto.com</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 </html>
