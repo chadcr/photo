@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CR | Photography</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/cr_icon2.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CR | Photography</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="images/cr_icon2.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/photos.js" defer></script>
+    </head>
 	<body>
         <div id="wrapper">
             <div id="header"> <img src="images/cr_text2.png" alt=""> </div>
@@ -17,34 +20,7 @@
                     <h1>A Collection Of Digitized Film Photographs</h1>
                     <p>This site, along with my photography, will always be a work in progress.</p>
                 </div>
-                <div id="photo_grid">
-                    <div class="row">
-                        <div class="column">
-                            <img src="images/1.jpg" alt="">
-                            <img src="images/2.jpg" alt="">
-                            <img src="images/3.jpg" alt="">
-                            <img src="images/4.jpg" alt="">
-                            <img src="images/5.jpg" alt="">
-                            <img src="images/6.jpg" alt="">
-                        </div>
-                        <div class="column">
-                            <img src="images/6.jpg" alt="">
-                            <img src="images/5.jpg" alt="">
-                            <img src="images/4.jpg" alt="">
-                            <img src="images/3.jpg" alt="">
-                            <img src="images/2.jpg" alt="">
-                            <img src="images/1.jpg" alt="">
-                        </div>
-                        <div class="column">
-                            <img src="images/2.jpg" alt="">
-                            <img src="images/3.jpg" alt="">
-                            <img src="images/5.jpg" alt="">
-                            <img src="images/1.jpg" alt=""> 
-                            <img src="images/6.jpg" alt="">
-                            <img src="images/4.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+                <div id="photo_grid"></div>
                 <div id="about" class="panels">
                     <div id="aboutPhoto">
                         <!-- <h1>Photographer</h1> -->
@@ -55,7 +31,6 @@
                 </div>
                 <div id="contact" class="panels">
                     <div id="contact_link">
-                        <!-- <h1>hi@chadreedphoto.com</h1> -->
                         <h1><a href="mailto:hi@chadreedphoto.com">hi@chadreedphoto.com</a></h1>
                     </div>
                 </div>
