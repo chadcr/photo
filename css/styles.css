@@ -38,7 +38,7 @@ body {
 	background-image: url('../images/cr_vw.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: right bottom;
 	z-index: -99;
 	position: fixed;
 }
