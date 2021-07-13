@@ -1,7 +1,7 @@
 $(function() {
 
     function getPhotos() {
-        const url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=b94e5e641cb3bb29dedfa4587b6f2373&user_id=chadcantreed&tags=crp0&sort=date-taken-asc&extras=url_h&format=json&nojsoncallback=1";
+        const url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=1ad923b8171b45bf1e9695467b1115a1&user_id=75191534%40N04&sort=date-taken-desc&extras=url_h&format=json&nojsoncallback=1";
         $.get(url, function(data){
             $.each(data.photos.photo, function(i,item){
                 let a = document.createElement("a");
