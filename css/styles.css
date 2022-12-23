@@ -174,8 +174,19 @@ body {
 	line-height: 100vh;
 }
 
+@media (min-width: 500px) {
+	#contact_link h1 {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 499px) {
+	#contact_link h1 {
+		font-size: 3em;
+	}
+}
+
 #contact_link h1 {
-	font-size: 4em;
 	text-align: center;
 	font-family: 'Reenie Beanie', cursive;
 	color: white;
