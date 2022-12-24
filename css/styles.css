@@ -71,7 +71,7 @@ body {
 
 @media only screen and (max-width: 800px) {
 	#landing_screen {
-		width: 150vw;
+		width: 120vw;
 		max-width: 150vw;
 		/*ehhh this is hacky and doesnt really look good*/
 	}
